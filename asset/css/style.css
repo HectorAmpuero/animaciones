@@ -296,6 +296,8 @@ input {
     align-items: center;
     background-color: #f2eedb;
     color: #0b8bf0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 .footer > p{
@@ -305,6 +307,9 @@ input {
     padding-bottom: 5px;
 }
 
+.footer i:hover {
+    transform: translateY(-1px) translateX(1px) scale(1.1); 
+}
 
 
 /*VERSIÓN TABLET */
@@ -356,8 +361,6 @@ input {
         margin-top: 5px;
         transition: color 0.1s ease, transform 0.3s ease;
         }
-        
-    
 
     .menu a:hover {
         color: #f2eedb;
