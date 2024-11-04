@@ -291,12 +291,12 @@ input {
 
 .footer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #f2eedb;
     color: #0b8bf0;
     cursor: pointer;
+    gap: 50px;
     transition: transform 0.3s ease;
 }
 
@@ -309,6 +309,23 @@ input {
 
 .footer i:hover {
     transform: translateY(-1px) translateX(1px) scale(1.1); 
+}
+
+.f-text {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.copy-r {
+    font-size: x-small;
+}
+
+
+.iconos {
+    text-align: center;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
