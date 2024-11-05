@@ -463,6 +463,7 @@ input {
     .footer {
         background-color: #0b8bf0;
         color: #f2eedb;
+        justify-content: space-evenly;
     }
     
     .footer > p{
@@ -484,7 +485,7 @@ input {
         "s f"
         ;
         grid-template-rows: 90px calc(100vh - 90px - 70px) 70px;
-        grid-template-columns: 30% 70%   ; 
+        grid-template-columns: 35% 65%   ; 
     }
 
     h2 {
